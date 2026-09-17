@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Solar Co. — Powering A Brighter Tomorrow</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="shell">
+      <nav class="nav">
+        <a href="#home" class="brand" aria-label="The Solar Co.">
+          <img src="assets/solar-co-logo.png" alt="The Solar Co." class="logo">
+        </a>
+
+        <div class="navlinks" id="navLinks">
+          <a href="#home" class="active">Home</a>
+          <a href="#about">About Us</a>
+          <a href="#services">Services</a>
+          <a href="#stories">Testimonials</a>
+          <a href="#contact">Contact</a>
+          <a href="#quote" class="btn nav-cta">Get a Quote <span>→</span></a>
+        </div>
+
+        <button class="menu" type="button" aria-label="Open navigation" id="menuBtn">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="shell">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Clean energy. Brighter tomorrows.</div>
+            <h1>Powering A <span>Brighter</span> Tomorrow</h1>
+            <p class="hero-description">
+              Smart solar solutions designed around your home, your energy needs and the way you live. Lower bills, greater independence and a cleaner future.
+            </p>
+            <div class="actions">
+              <a href="#quote" class="btn">Get Your Free Quote <span>→</span></a>
+              <a href="#services" class="btn alt">Explore Services <span>↗</span></a>
+            </div>
+            <div class="benefits">
+              <span><i>✓</i> Australian homes</span>
+              <span><i>✓</i> Quality installation</span>
+              <span><i>✓</i> No-pressure advice</span>
+            </div>
+          </div>
+
+          <!-- HERO RIGHT CARD -->
+          <div class="hero-visual">
+            <div class="family-note">
+              <b>A brighter future starts at home.</b>
+              <span>Clean energy. Smarter living.</span>
+            </div>
+            <img src="assets/hero-family.jpg" alt="Happy family enjoying their solar powered home">
+            <div class="visual-wash"></div>
+
+            <div class="quote-card">
+              <h3>Get your free solar quote</h3>
+              <p>Tell us about your home and we'll help you find the right solution.</p>
+              
+              <form class="mini-form" id="heroQuoteForm">
+                <div class="mini-fields">
+                  <label>Postcode
+                    <input type="text" name="postcode" placeholder="3000" inputmode="numeric" required>
+                  </label>
+                  <label>Monthly Bill
+                    <select name="bill" required>
+                      <option value="">Select range</option>
+                      <option>$100 – $200</option>
+                      <option>$200 – $400</option>
+                      <option>$400+</option>
+                    </select>
+                  </label>
+                </div>
+                <button type="submit" class="btn">Request a Quote <span>→</span></button>
+              </form>
+              <div class="success" id="heroSuccess">Thank you! Request received.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- STATS BAR -->
+        <div class="proof">
+          <div class="proof-box">
+            <div class="metric"><strong>10,000+</strong><small>Homes Powered</small></div>
+            <div class="metric"><strong>25+</strong><small>Years Experience</small></div>
+            <div class="metric"><strong>60,000+</strong><small>Tonnes CO₂ Offset</small></div>
+            <div class="metric rating"><strong>4.9/5 <span class="stars">★★★★★</span></strong><small>Customer Rating</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="shell about-grid">
+        <div class="about-photo">
+          <img src="assets/about_photo.jpg" alt="Solar technician working on rooftop">
+          <div class="photo-badge">
+            <strong>25+</strong>
+            <span>Years of clean-energy experience</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <div class="eyebrow">About The Solar Co.</div>
+          <h2>A Cleaner Planet <span>Starts With People.</span></h2>
+          <p>We believe choosing solar should feel clear, personal and genuinely exciting. Our team listens first, then designs a system around your home and energy goals.</p>
+          
+          <div class="mission-grid">
+            <article class="mission">
+              <div class="icon">◎</div>
+              <div>
+                <h3>Our Mission</h3>
+                <p>Make clean energy simple, reliable and useful for everyday homes.</p>
+              </div>
+            </article>
+            <article class="mission">
+              <div class="icon">◌</div>
+              <div>
+                <h3>Our Vision</h3>
+                <p>Create more resilient homes powered by smarter, cleaner energy.</p>
+              </div>
+            </article>
+            <article class="mission">
+              <div class="icon">✦</div>
+              <div>
+                <h3>Our Values</h3>
+                <p>Clear advice, thoughtful work and support that lasts.</p>
+              </div>
+            </article>
+          </div>
+
+          <div class="checks">
+            <div><span class="check">✓</span><span><b>One expert team</b> — Design, installation and support from people who care.</span></div>
+            <div><span class="check">✓</span><span><b>Built around your home</b> — Tailored specifically for your energy needs.</span></div>
+          </div>
+          <a href="#quote" class="btn alt">Talk To A Solar Expert <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="shell">
+        <div class="section-head">
+          <div class="eyebrow">Complete solar solutions</div>
+          <h2>Everything you need for <span>a brighter tomorrow.</span></h2>
+          <p>From the first panel to the energy you use every day, we make the journey simple.</p>
+        </div>
+
+        <div class="service-layout">
+          <article class="featured-service">
+            <div class="featured-content">
+              <span class="eyebrow">Most Popular</span>
+              <h3>Solar Panel Installation</h3>
+              <p>High-performing solar designed around your roof, your household and your energy goals.</p>
+              <a href="#quote" class="btn">Design My System <span>→</span></a>
+            </div>
+          </article>
+
+          <div class="cards">
+            <article class="service-card">
+              <img src="assets/svc2.jpg" alt="Battery storage">
+              <div class="service-body">
+                <div class="service-icon">▣</div>
+                <h3>Battery Storage</h3>
+                <p>Store more of your solar and keep energy available when you need it.</p>
+                <a href="#quote" class="learn">Learn More →</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <img src="assets/svc3.jpg" alt="EV charging">
+              <div class="service-body">
+                <div class="service-icon">↗</div>
+                <h3>EV Charging Integration</h3>
+                <p>Power your electric vehicle from a smarter home energy system.</p>
+                <a href="#quote" class="learn">Learn More →</a>
+              </div>
+            </article>
+            <article class="service-card">
+              <img src="assets/svc4.jpg" alt="Smart energy monitoring">
+              <div class="service-body">
+                <div class="service-icon">⌁</div>
+                <h3>Monitoring & Smart Energy</h3>
+                <p>See what your system is producing and use your energy intelligently.</p>
+                <a href="#quote" class="learn">Learn More →</a>
+              </div>
+            </article>
+            <article class="advice">
+              <div class="big-icon">☀</div>
+              <h3>Not sure what's right for your home?</h3>
+              <p>Speak with a solar expert and find a setup that fits your goals.</p>
+              <a href="#quote" class="btn">Get Expert Advice <span>→</span></a>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process">
+      <div class="shell">
+        <div class="section-head">
+          <div class="eyebrow">Simple from start to finish</div>
+          <h2>Your path to <span>better energy.</span></h2>
+        </div>
+        <div class="steps">
+          <article class="step">
+            <div class="step-no">01 / DISCOVER</div>
+            <h3>Tell us about your home.</h3>
+            <p>Complete the quick quote form or speak with an expert about what you want to achieve.</p>
+          </article>
+          <article class="step">
+            <div class="step-no">02 / DESIGN</div>
+            <h3>See a plan that fits.</h3>
+            <p>Receive an easy-to-understand proposal built around your home and energy goals.</p>
+          </article>
+          <article class="step">
+            <div class="step-no">03 / POWER UP</div>
+            <h3>Feel the difference.</h3>
+            <p>Our experienced team brings your system to life and stays there to help.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="stories">
+      <div class="shell">
+        <div class="test-top">
+          <div class="section-head" style="margin-bottom:0">
+            <div class="eyebrow">Real people. Real impact.</div>
+            <h2>Trusted by Homeowners <span>Across Australia.</span></h2>
+            <p>Thousands of households have made the switch. Here's what the experience feels like.</p>
+          </div>
+          <div class="rating-box">
+            <strong>4.9/5 <em>★★★★★</em></strong>
+            <span>Based on customer feedback</span>
+          </div>
+        </div>
+
+        <div class="reviews" style="margin-top:35px">
+          <article class="review">
+            <div class="stars">★★★★★</div>
+            <blockquote>“The whole process was seamless from the first chat to switch-on. Our energy bills have dropped and we couldn't be happier.”</blockquote>
+            <div class="person">
+              <img src="assets/testimonial-1.jpg" alt="James T.">
+              <div><b>James T.</b><span>Melbourne, VIC</span></div>
+            </div>
+          </article>
+          <article class="review">
+            <div class="stars">★★★★★</div>
+            <blockquote>“Professional, knowledgeable and genuinely easy to work with. The team explained every choice and made it feel simple.”</blockquote>
+            <div class="person">
+              <img src="assets/testimonial-2.jpg" alt="Sarah L.">
+              <div><b>Sarah L.</b><span>Brisbane, QLD</span></div>
+            </div>
+          </article>
+          <article class="review">
+            <div class="stars">★★★★★</div>
+            <blockquote>“Fantastic support before and after installation. We feel proud to be part of a cleaner future.”</blockquote>
+            <div class="person">
+              <img src="assets/testimonial-3.jpg" alt="Michael R.">
+              <div><b>Michael R.</b><span>Perth, WA</span></div>
+            </div>
+          </article>
+        </div>
+
+        <div class="testimonial-cta">
+          <div>
+            <h3>Join thousands of brighter homes.</h3>
+            <p>Your tailored solar plan starts with a simple, no-pressure conversation.</p>
+          </div>
+          <a href="#quote" class="btn">Request a Quote <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FULL QUOTE SECTION -->
+    <section class="quote-section" id="quote">
+      <div class="shell quote-wrap">
+        <div class="quote-copy">
+          <div class="eyebrow">Your solar story starts here</div>
+          <h2>Let's build a <span>brighter future.</span></h2>
+          <p>Answer a few quick questions and a friendly specialist will help you understand what's possible for your home.</p>
+          <div class="quote-side">
+            <img src="assets/test_house.jpg" alt="Solar home">
+            <div class="quote-side-note">☀ Clean energy, designed for home.</div>
+          </div>
+        </div>
+
+        <form class="form" id="quoteForm">
+          <div class="form-title">
+            <h3>Let's get started</h3>
+            <span>Takes about 1 minute</span>
+          </div>
+          <div class="fields">
+            <label>Full Name<input name="name" placeholder="Alex Smith" required></label>
+            <label>Email Address<input name="email" type="email" placeholder="alex@example.com" required></label>
+            <label>Phone Number<input name="phone" type="tel" placeholder="0400 000 000" required></label>
+            <label>Monthly Power Bill
+              <select name="bill" required>
+                <option value="">Select range</option>
+                <option>$100 – $200</option>
+                <option>$200 – $400</option>
+                <option>$400+</option>
+              </select>
+            </label>
+            <label class="wide">Property Postcode<input name="postcode" inputmode="numeric" placeholder="3000" required></label>
+          </div>
+          <p class="privacy">By requesting a quote, you agree to be contacted about your solar enquiry.</p>
+          <button type="submit" class="btn" style="width:100%">Request My Free Quote <span>→</span></button>
+          <div class="success" id="quoteSuccess">Thank you — your request has been received. A friendly expert will be in touch soon.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="contact">
+    <div class="shell footer-row">
+      <img class="footer-logo" src="assets/solar-co-logo.png" alt="The Solar Co.">
+      <small>© 2026 The Solar Co. · Clean energy, brighter tomorrows.</small>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
